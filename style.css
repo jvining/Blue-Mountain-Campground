@@ -43,7 +43,7 @@ body.front-page header .jumbotron .jumbotron-info p:nth-child(3):before {font-fa
 @media(max-width:990px) and (max-height:660px){body.front-page header .jumbotron{padding-top:18em; height:100vh;} body.front-page header .jumbotron{padding: 3em;} body.front-page header .jumbotron h1{margin-top: 3.75em;} body.front-page header .jumbotron h2{font-size: .9em;} body.front-page header .jumbotron .jumbotron-info p{display: block;line-height:.5em;font-size:.9em;}}
 
 body.sub-page header { height:40vh; background: url(img/bg-img-hero.jpg) center center no-repeat; background-size:cover;box-shadow: 0 10px 25px 2px rgba(0, 0, 0, 0.3);  }
-body.sub-page .container#container-content{margin-top:-5em; background-color:#fff; box-shadow: 0 10px 25px 2px rgba(0, 0, 0, 0.3); margin-bottom:-4em; padding-bottom:5em;}
+body.sub-page .container#container-content{margin-top: -10em; background-color:#fff; min-height:60vh; box-shadow: 0 10px 25px 2px rgba(0, 0, 0, 0.3);margin-bottom:-4em;padding-bottom:5em;}
 @media(max-width:768px){body.sub-page header {height:35vh;}body.sub-page .container#container-content{ margin-top:0em;}}
 
 /* Navigation */
@@ -58,7 +58,7 @@ body nav.navbar .navbar-nav > li > a:hover {color:#68acce; cursor:pointer;}
 @media(max-width:768px){body nav.navbar .navbar-brand {margin-top:-4.25em; margin-left:-2.75em;} body nav.navbar .navbar-brand img{ width:75%;}}
 
 /* Typography */
-body h1, body h2, body h3, body h4, body h5{font-weight:300; font-family: "Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
+body h1, body h2, body h3, body h4, body h5{color:#467799; font-weight:300; font-family: "Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
 body p, body ul, body ol, body li, body table, body address, body blockquote, body cite{color:#5f5f5f; font-size:16px; font-weight:400;}
 body a:link{color:#467799;}
 body a:hover{color:#68acce;}
@@ -71,22 +71,19 @@ body a:hover{color:#68acce;}
 .text-white{color:#fff;}
 .text-shadow{text-shadow: rgba( 0, 0, 0, .25 ) .045em .045em;}
 
-.btn-event{background:#467799; color:#fff!important; font-weight:300; font-family: "Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
-.btn-event:hover{background:#68acce; border:1px #467799 solid ;}
+/* Theme Specific Bootstrap Overrides */
+.panel-site{border:1px #344555 solid;}
+.panel-site .panel-heading{background: #344555;border-color: #344555;}
+
+.btn-site{background:#467799; color:#fff!important; font-weight:300; font-family: "Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
+.btn-site:hover{background:#68acce; border:1px #467799 solid ;}
 .btn-xl{padding: .5em .85em!important; font-size:1.5em;}
 @media(max-width:768px){.btn-xl,.btn-lg,.btn-md,.btn-sm,.btn-xs{font-size:1em!important;}}
  
+/* Footer */
 footer {margin: 5em 0 0; bottom: 0; left: 0; right: 0; padding: 0 0 2em;}
 footer {background: #344555; margin-top: 50px; padding: 25px 0;}
+footer .container h4 {color: #fff;}
 footer .container p {color: #fff;}
 footer .container a {color: #fff;}
 footer .container a:hover{color: #68acce; background-color: transparent;}
-
-/* Blog */
-#blog [class*="col-"] table td{margin-top:10em; padding:1em;}
-
-/* Blog Post */
-#blog-post [class*="col-"] img{margin-bottom:2em;}
-#blog-post [class*="col-"] p{margin-bottom:2em;}
-#blog-post .row.blog-post-author {border-top:1px #eee solid; padding-top:1em;}
-#blog-post .row.blog-post-author p{font-size:80%;}
