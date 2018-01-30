@@ -1,0 +1,197 @@
+<html lang="en"><head>
+	<title>Blue Mountain Campground</title>
+ 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Joshua Vining">
+	<meta name="copyright" content="https://github.com/jvining">
+	<meta name="description" content="Code Review HTML Theme made dynamic by using PHP. Template Built on Starter Bootstrap Template (http://bit.ly/1SnymWq) using Bootstrap, Jquery, Lightbox Bootstrap 3, &amp; Google WebFonts.">
+ 
+	<!-- Open Graph Sharing Meta Tags -->
+ 	<meta property="og:title" content="Blue Mountain CampGround">
+	<meta property="og:url" content="http://www.bluemountaincampground.com/">
+	<meta property="og:description" content="Located in the Catskill Mountains of New York Blue Mountain Campground offers quality facilities &amp; easy access to area attractions in Saugerties, Woodstock, Hunter, Ulster &amp; Greene counties.">
+	<meta property="og:image:url" content="http://fpoimg.com/1200x800?text=Blue Mountain Campground">
+
+	<!-- Bootstrap CDN -->
+	<link href="img/favicon.png" rel="icon" type="image/png">
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Nunito+Sans:400,900" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+  	<link href="style.css" rel="stylesheet" type="text/css">
+  	<link href="&lt;!-- SHHHH nothing to see here --&gt;" rel="stylesheet" type="text/css" id="stylelink">
+
+ 	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body class="sub-page">
+
+	<div id="theme-selector-container" class="hidden">
+	   <form action="#" name="colour" id="theme-selector-form" onsubmit="return false;">
+	       <label>Select a theme </label>
+	       <select id="theme-selector-options" name="theme-selector">
+	           <option value="<!-- SHHHH nothing to see here -->"></option>
+	           <option value="color/light.css">Light scheme</option>
+	           <option value="color/dark.css">Dark scheme</option>
+	           <option value="color/jabberwocky.css">Jabberwocky scheme</option>
+	       </select>
+	   </form>
+	</div>
+			
+	<div class="container-fluid container-button">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-8 col-xs-12 voffset1">
+					<a class="btn btn-md btn-primary btn-site pull-right">Make Reservations!</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+		
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	   <div class="container">
+	        <div class="navbar-header">
+	           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-navbar-collapse">
+	               <span class="sr-only">Toggle navigation</span>
+	               <span class="icon-bar"></span>
+	               <span class="icon-bar"></span>
+	               <span class="icon-bar"></span>
+	           </button>
+	           <a class="navbar-brand" href="index.html"><img class="img-responsive center-block" alt="img" src="img/Blue-Mountain-Logo-Color-sm.png"></a>
+	       </div>
+	        <div class="collapse navbar-collapse" id="primary-navbar-collapse">
+	           <ul class="nav navbar-nav navbar-right">
+	               <li><a href="index.html">Home</a></li>
+	               <li><a href="rates.html">Rates</a></li>
+	               <li><a href="amenities.html">Amenities</a></li>
+ 	               <li><a href="attractions.html">Attractions</a></li>
+	               <li><a href="gallery.html">Gallery</a></li>
+	               <li><a href="contact.html">Contact</a></li>
+	            </ul>
+	       </div>
+	    </div>
+	</nav>
+	
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					
+				</div>
+			</div>
+		</div>
+	</header>	
+
+	<div class="container" id="container-content">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="page-header">Attractions</h1>
+				<ol class="breadcrumb">
+					<li>
+						<a href="index.php">Home</a>
+					</li>
+					<li class="active">Attractions</li>
+				</ol>
+			</div>
+		</div>
+ 		<div class="row">
+			<div class="col-md-12">
+				<p class="fa-lg">Our location in Saugerties, Ulster County puts you in just minutes from Catskill golfing, paintball, go-carts, horseback riding, farmers markets, dining, shopping festivals, and much more!</p>
+			</div>
+		</div>
+ 		<div class="row">
+			<div class="col-md-2">
+				<img alt="img" class="img-responsive img-rounded center-block voffset1" src="img/attractions-hiking.jpg">
+			</div>
+			<div class="col-md-10">
+				<h3>Hikinig, Biking, Climbing</h3>
+				<p>Kaaterskill Falls, North and South Lake, Hunter Mountain, The Mohonk Preserve, Lake Minnewaska, not to mention countless trails through the Catskill Preserve.</p>
+			</div>
+			<div class="col-xs-12">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<img alt="img" class="img-responsive img-rounded center-block voffset1" src="img/attractions-shopping.jpg">
+			</div>
+			<div class="col-md-10">
+				<h3>Antiques &amp; Shopping</h3>
+				<p>Downtown Saugerties, Woodstock, Hudson, Pheonicia, Catskill and Chatham… your treasure is out there.</p>
+			</div>
+			<div class="col-xs-12">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<img alt="img" class="img-responsive img-rounded center-block voffset1" src="img/attractions-art.jpg">
+			</div>
+			<div class="col-md-10">
+				<h3>Art &amp; History</h3>
+				<p>Blue Mountain is just 2 miles south of America’s First Art Colony; Palenville, NY. Explore the Thomas Cole house in Catskill, and Frederick Church’s Olana in Hudson. Then roll South to Mills, Vanderbilt and Roosevelt estates in and around Hyde Park. We are also just minutes away from Woodstock, NY.</p>
+			</div>
+			<div class="col-xs-12">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<img alt="img" class="img-responsive img-rounded center-block voffset1" src="img/attractions-sports.jpg">
+			</div>
+			<div class="col-md-10">
+				<h3>Sports &amp; Thrills</h3>
+				<p>The Rip Van Winkle Country Club is seconds away.. play a round of golf with amazing mountain views as your backdrop. Go horseback riding at Bailiwick Ranch, or catch the Skyride at Hunter Mountain. Just up the road from us is Zoom Flume waterpark as well.</p>
+			</div>
+			<div class="col-xs-12">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<img alt="img" class="img-responsive img-rounded center-block voffset1" src="img/attractions-watersports.jpg">
+			</div>
+			<div class="col-md-10">
+				<h3>Kayaking, Canoeing, Fishing, Tubing</h3>
+				<p>We’re not just beautiful mountains. . . with the Hudson River and hundreds of lakes, creeks and streams nearby, we’ve got the wet stuff covered. Go fishing in any of the Catskill Preserve’s many streams, or charter a boat and guide on the river. The Esopus Creek is renowned for excellent kayaking and tubing.</p>
+			</div>
+			<div class="col-xs-12">
+				<hr>
+			</div>
+		</div>
+	</div>	
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<a><h4>Blue Mountain Campground © <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script></h4></a>
+					<p>3783 Rt. 32 <br/>
+					Saugerties, NY 12477 <br/>
+					<a href="tel:(845) 246-7564">(845) 246-7564</a></p>
+  					<p><a href="contact.html" class="btn btn-md btn-site">Contact Us Today</a></p>
+				</div>
+				<div class="col-md-8">
+					<ul class="list-unstyled list-inline pull-right">
+						<li><a target="_blank" href="http://getbootstrap.com" data-toggle="tooltip" data-placement="top" title="" data-original-title="Version: 3.1.0">Bootstrap </a></li>
+						<li><a target="_blank" href="http://fontawesome.io/" data-toggle="tooltip" data-placement="top" title="" data-original-title="Version: 4.1.0">Font Awesome </a></li>
+						<li><a target="_blank" href="https://jquery.com/" data-toggle="tooltip" data-placement="top" title="" data-original-title="Version: 1.7.1">Jquery </a></li>
+						<li><a target="_blank" href="https://github.com/ashleydw/lightbox" data-toggle="tooltip" data-placement="top" title="" data-original-title="Version: 4.0.1">Bootstrap Lightbox 3</a></li>
+					</ul>
+ 	 			</div>
+			</div>
+		</div>
+	</footer>
+
+
+<!-- JS -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js" type="text/javascript"></script>
+<script src="js/scripts.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>
