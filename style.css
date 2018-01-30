@@ -71,7 +71,7 @@ body a:hover{color:#68acce;}
 .text-white{color:#fff;}
 .text-shadow{text-shadow: rgba( 0, 0, 0, .25 ) .045em .045em;}
 
-.btn-event{background:#467799; font-weight:300; font-family: "Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
+.btn-event{background:#467799; color:#fff!important; font-weight:300; font-family: "Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
 .btn-event:hover{background:#68acce; border:1px #467799 solid ;}
 .btn-xl{padding: .5em .85em!important; font-size:1.5em;}
 @media(max-width:768px){.btn-xl,.btn-lg,.btn-md,.btn-sm,.btn-xs{font-size:1em!important;}}
