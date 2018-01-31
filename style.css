@@ -1,10 +1,10 @@
 /*
-Theme Name: Blue Mountain Campground  
-Theme URI:  http://jvining.github.io/Blue-Mountain-Campground/
-Description: Blue Mountain Campground HTML theme Developement
-Version: 1.0
-Author: Joshua Vining
-Author URI: https://github.com/jvining
+Theme Name:Blue Mountain Campground  
+Theme URI: http://jvining.github.io/Blue-Mountain-Campground/
+Description:Blue Mountain Campground HTML theme Developement
+Version:1.0
+Author:Joshua Vining
+Author URI:https://github.com/jvining
 
 _DkBlue  #344555
 _MdBlue  #467799
@@ -16,10 +16,10 @@ _eggShll #f0ead6
 #theme-selector-container{background:#fbfbfb; padding:1em; height:6em!important; width:14em!important; border:1px #999 solid; border-radius:6px; text-align:center; position:absolute!important; top:20%!important; right:15%!important; z-index:99999!important;}
 
 /* Utility Class */
-.voffset{margin-top: .2em;} .voffset0{margin-top: .5em} .voffset1{margin-top: 1em;}  
-.voffset2{margin-top: 2em;} .voffset3{margin-top: 3em;} .voffset4{margin-top: 4em;} 
-.voffset5{margin-top: 5em;} .voffset6{margin-top: 6em;} .voffset7{margin-top: 7em;}
-.voffset8{margin-top: 8em;}	.voffset9{margin-top: 9em;} .voffsetx{margin-top:10em;}
+.voffset{margin-top:.2em;} .voffset0{margin-top:.5em} .voffset1{margin-top:1em;}  
+.voffset2{margin-top:2em;} .voffset3{margin-top:3em;} .voffset4{margin-top:4em;} 
+.voffset5{margin-top:5em;} .voffset6{margin-top:6em;} .voffset7{margin-top:7em;}
+.voffset8{margin-top:8em;}	.voffset9{margin-top:9em;} .voffsetx{margin-top:10em;}
  
 .fa-lg,.fa-1x,.fa-2x,.fa-3x,.fa-4x,.fa-5x,.fa-6x,.fa-7x,.fa-8x,.fa-9x,.fa-10x{line-height:1.25em!important;}
 .fa-1x{font-size:1.5em!important;} .fa-2x{font-size:2em!important;}
@@ -28,37 +28,31 @@ _eggShll #f0ead6
 .fa-7x{font-size:7em!important;}   .fa-8x{font-size:8em!important;}
 .fa-9x{font-size:9em!important;}   .fa-10x{font-size:10em!important;}
 
-/* Structure */
-body{font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
-body.front-page header .jumbotron{padding-top:18em; height:80vh; background: url(img/bg-img-hero.jpg) center center no-repeat; background-size:cover;}
-body.front-page header .jumbotron h1{font-size:5em; color:#fff; text-shadow:.025em .025em #333;}
-body.front-page header .jumbotron h2{font-size:2em; color:#fff; text-shadow:.025em .025em #333;}
-body.front-page header .jumbotron .jumbotron-info{margin:.75em 0;}
-body.front-page header .jumbotron .jumbotron-info p{display:inline; font-size:1.15em; margin-left:.5em; padding-left:.5em; color:#fff; text-shadow:.025em .025em #333;}
-body.front-page header .jumbotron .jumbotron-info p:nth-child(1):before {font-family: FontAwesome; content:"\f073"; position:relative; left:-.75em;}
-body.front-page header .jumbotron .jumbotron-info p:nth-child(2):before {font-family: FontAwesome; content:"\f041"; position:relative; left:-.5em;}
-body.front-page header .jumbotron .jumbotron-info p:nth-child(3):before {font-family: FontAwesome; content:"\f095"; position:relative; left:-.5em;}  
-@media(max-width:990px){body.front-page header .jumbotron{height:80vh;} body.front-page header .jumbotron h1{font-size:2em;} body.front-page header .jumbotron h2{font-size:1em;} body.front-page header .jumbotron p{font-size:1em;} body.front-page header .jumbotron .btn{max-width:95%;margin:auto;}}
-@media(max-width:650px){body.front-page header .jumbotron{height: 70vh;min-height:425px;} body.front-page header .jumbotron{padding:5em;} body.front-page header .jumbotron h1{margin-top: 3.5em;} body.front-page header .jumbotron h2{font-size:1em;} body.front-page header .jumbotron .jumbotron-info{margin-top:2em;} body.front-page header .jumbotron .jumbotron-info p{display:block;line-height:.5em;font-size:.9em;}}
-@media(max-width:990px) and (max-height:660px){body.front-page header .jumbotron{padding-top:18em; height:100vh;} body.front-page header .jumbotron{padding: 3em;} body.front-page header .jumbotron h1{margin-top: 3.75em;} body.front-page header .jumbotron h2{font-size: .9em;} body.front-page header .jumbotron .jumbotron-info p{display: block;line-height:.5em;font-size:.9em;}}
+/* Home Page Header / Carousel */
+body.front-page header {margin-bottom:2em;}
+body.front-page header .jumbotron, body header .jumbotron .carousel, body header .jumbotron .carousel-inner, body header .jumbotron .carousel-inner .item, body header .jumbotron .carousel-inner .item img{height:80vh;margin:0; padding:0; box-shadow:0 10px 25px 2px rgba(0, 0, 0, 0.2); }
+body header .jumbotron .carousel-inner .item .carousel-content{color:#fff; font-size:5em; text-shadow:.025em .025em #000;font-family:"Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"; z-index:9999999999999999!important; position:relative; top:50%; left:27%; } 
 
-body.sub-page header { height:40vh; background: url(img/bg-img-hero.jpg) center center no-repeat; background-size:cover;box-shadow: 0 10px 25px 2px rgba(0, 0, 0, 0.3);  }
-body.sub-page .container#container-content{margin-top: -10em; background-color:#fff; min-height:60vh; box-shadow: 0 10px 25px 2px rgba(0, 0, 0, 0.3);margin-bottom:-4em;padding-bottom:5em;}
+/* Sub Page Header */
+body.sub-page header { height:40vh; background:url(img/bg-img-hero.jpg) center center no-repeat; background-size:cover;box-shadow:0 10px 25px 2px rgba(0, 0, 0, 0.3); }
+body.sub-page .container#container-content{margin-top:-10em; background-color:#fff; min-height:60vh; box-shadow:0 10px 25px 2px rgba(0, 0, 0, 0.3);margin-bottom:-4em;padding-bottom:5em;}
 @media(max-width:768px){body.sub-page header {height:35vh;}body.sub-page .container#container-content{ margin-top:0em;}}
 
 /* Navigation */
-body .container-button{background:#f0ead6; height:4em; position:fixed; z-index:1030; width:100%;}
-  
-body nav.navbar .navbar-toggle {border-color: #fff;}
-body nav.navbar {background:#344555; border-bottom:5px #467799 solid; min-height:6em;padding:1.25em;box-shadow: 0 10px 25px 2px rgba(0, 0, 0, 0.3);  top: 4em;}
+body .container-button {background:#f0ead6; height:4em; position:fixed; z-index:1030; width:100%;}
+body .container-timer {position:fixed; top:146px; left:0; right:0; z-index:1050; background:#ff0000; height:3em; padding:.75em;}
+
+body nav.navbar .navbar-toggle {border-color:#fff;}
+body nav.navbar {background:#344555; border-bottom:5px #467799 solid; min-height:6em;padding:1.25em;box-shadow:0 10px 25px 2px rgba(0, 0, 0, 0.3);  top:4em;}
 body nav.navbar .navbar-brand {margin-top:-4.5em;}
 body nav.navbar .navbar-brand img {width:77%;}
-body nav.navbar .navbar-nav > li > a {font-size:.95em; color:#fff; font-family: "Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
+body nav.navbar .navbar-nav > li > a {font-size:.95em; color:#fff; font-family:"Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
 body nav.navbar .navbar-nav > li > a:hover {color:#68acce; cursor:pointer;}
 @media(max-width:768px){body nav.navbar .navbar-brand {margin-top:-4.25em; margin-left:-2.75em;} body nav.navbar .navbar-brand img{ width:75%;}}
 
 /* Typography */
-body h1, body h2, body h3, body h4, body h5{color:#467799; font-weight:300; font-family: "Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
+body{font-family:"Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
+body h1, body h2, body h3, body h4, body h5{color:#467799; font-weight:300; font-family:"Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
 body p, body ul, body ol, body li, body table, body address, body blockquote, body cite{color:#5f5f5f; font-size:16px; font-weight:400;}
 body a:link{color:#467799;}
 body a:hover{color:#68acce;}
@@ -69,21 +63,21 @@ body a:hover{color:#68acce;}
 
 .text-grey{color:#5f5f5f;}
 .text-white{color:#fff;}
-.text-shadow{text-shadow: rgba( 0, 0, 0, .25 ) .045em .045em;}
+.text-shadow{text-shadow:rgba( 0, 0, 0, .25 ) .045em .045em;}
 
 /* Theme Specific Bootstrap Overrides */
 .panel-site{border:1px #344555 solid;}
-.panel-site .panel-heading{background: #344555;border-color: #344555;}
+.panel-site .panel-heading{background:#344555;border-color:#344555;}
 
-.btn-site{background:#467799; color:#fff!important; font-weight:300; font-family: "Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
+.btn-site{background:#467799; color:#fff!important; font-weight:300; font-family:"Nunito Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
 .btn-site:hover{background:#68acce; border:1px #467799 solid ;}
-.btn-xl{padding: .5em .85em!important; font-size:1.5em;}
+.btn-xl{padding:.5em .85em!important; font-size:1.5em;}
 @media(max-width:768px){.btn-xl,.btn-lg,.btn-md,.btn-sm,.btn-xs{font-size:1em!important;}}
  
 /* Footer */
-footer {margin: 5em 0 0; bottom: 0; left: 0; right: 0; padding: 0 0 2em;}
-footer {background: #344555; margin-top: 50px; padding: 25px 0;}
-footer .container h4 {color: #fff;}
-footer .container p {color: #fff;}
-footer .container a {color: #fff;}
-footer .container a:hover{color: #68acce; background-color: transparent;}
+footer {margin:5em 0 0; bottom:0; left:0; right:0; padding:0 0 2em;}
+footer {background:#344555; margin-top:50px; padding:25px 0;}
+footer .container h4 {color:#fff;}
+footer .container p {color:#fff;}
+footer .container a {color:#fff;}
+footer .container a:hover{color:#68acce; background-color:transparent;}
