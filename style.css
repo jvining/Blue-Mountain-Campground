@@ -31,7 +31,12 @@ _eggShll #f0ead6
 /* Home Page Header / Carousel */
 body.front-page header {margin-bottom:2em;}
 body.front-page header .jumbotron, body header .jumbotron .carousel, body header .jumbotron .carousel-inner, body header .jumbotron .carousel-inner .item, body header .jumbotron .carousel-inner .item img{height:80vh;margin:0; padding:0; box-shadow:0 10px 25px 2px rgba(0, 0, 0, 0.2); }
-body header .jumbotron .carousel-inner .item .carousel-content{color:#fff; font-size:5em; text-shadow:.025em .025em #000;font-family:"Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"; z-index:9999999999999999!important; position:relative; top:50%; left:27%; } 
+
+body header .jumbotron .carousel-indicators{position:absolute;bottom:0;right:0;left:0;width:100%;z-index:15;margin:0;padding:0 25px 25px 0;}
+body header .jumbotron .carousel-control.left, body header .jumbotron .carousel-control.right {background-image:none;}
+
+body header .jumbotron .carousel-inner .item{background-size:cover!important; background-position:center center!important; background-repeat:none!important;}
+body header .jumbotron .carousel-inner .item .carousel-content{color:#fff; font-size:5em; text-shadow:.025em .025em #000;font-family:"Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";position:absolute; left:0; right:0; top:45%; z-index:10; text-align:center!important;color:#fff; text-align:left;}
 
 /* Sub Page Header */
 body.sub-page header { height:40vh; background:url(img/bg-img-hero-0.jpg) center center no-repeat; background-size:cover;box-shadow:0 10px 25px 2px rgba(0, 0, 0, 0.3); }
@@ -40,8 +45,7 @@ body.sub-page .container#container-content{margin-top:-10em; background-color:#f
 
 /* Navigation */
 body .container-button {background:#f0ead6; height:4em; position:fixed; z-index:1030; width:100%;}
-body .container-timer {position:fixed; top:146px; left:0; right:0; z-index:1050; background:#ff0000; height:3em; padding:.75em;}
-
+ 
 body nav.navbar .navbar-toggle {border-color:#fff;}
 body nav.navbar {background:#344555; border-bottom:5px #467799 solid; min-height:6em;padding:1.25em;box-shadow:0 10px 25px 2px rgba(0, 0, 0, 0.3);  top:4em;}
 body nav.navbar .navbar-brand {margin-top:-4.5em;}
