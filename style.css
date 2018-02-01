@@ -30,7 +30,9 @@ _eggShll #f0ead6
 
 /* Home Page Header / Carousel */
 body.front-page header {margin-bottom:2em;}
-body.front-page header .jumbotron, body header .jumbotron .carousel, body header .jumbotron .carousel-inner, body header .jumbotron .carousel-inner .item, body header .jumbotron .carousel-inner .item img{height:80vh;margin:0; padding:0; box-shadow:0 10px 25px 2px rgba(0, 0, 0, 0.2); }
+body.front-page header .jumbotron, body header .jumbotron .carousel, body header .jumbotron .carousel-inner, body header .jumbotron .carousel-inner .item{height:80vh;margin:0; padding:0; box-shadow:0 10px 25px 2px rgba(0, 0, 0, 0.2); }
+@media(max-width:786px){body.front-page header .jumbotron, body header .jumbotron .carousel, body header .jumbotron .carousel-inner, body header .jumbotron .carousel-inner .item{height:85vh}}
+@media(max-width:450px){body.front-page header .jumbotron, body header .jumbotron .carousel, body header .jumbotron .carousel-inner, body header .jumbotron .carousel-inner .item{height:100vh;}}
 
 body header .jumbotron .carousel-indicators{position:absolute;bottom:0;right:0;left:0;width:100%;z-index:15;margin:0;padding:0 25px 25px 0;}
 body header .jumbotron .carousel-control.left, body header .jumbotron .carousel-control.right {background-image:none;}
