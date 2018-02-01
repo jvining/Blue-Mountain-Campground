@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $(".fb-album-container").FacebookAlbumBrowser({
       	account: "oldenewsband",
-      	accessToken: "498242010371745|bc7452f95cc93afcfec6846cbd985e20",
+      	accessToken: "2016452741957439|BYawI0UQYMTd3CSs0rb-ejPVuLg",
         skipAlbums: ["Profile Pictures", "Cover Photos"],
         showComments: true,
         commentsLimit:0,
