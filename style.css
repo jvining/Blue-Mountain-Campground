@@ -44,7 +44,7 @@ body.sub-page .container#container-content{margin-top:-10em; background-color:#f
 @media(max-width:768px){body.sub-page header {height:35vh;}body.sub-page .container#container-content{ margin-top:0em;}}
 
 /* Navigation */
-body .container-button {background:#f0ead6; height:4em; position:fixed; z-index:1030; width:100%;}
+body .container-button {background:#f0ead6; height:4em; position:fixed; top:0; z-index:1030; width:100%;}
  
 body nav.navbar .navbar-toggle {border-color:#fff;}
 body nav.navbar {background:#344555; border-bottom:5px #467799 solid; min-height:6em;padding:1.25em;box-shadow:0 10px 25px 2px rgba(0, 0, 0, 0.3);  top:4em;}
